@@ -25,5 +25,18 @@
     "less-loader": "^7.0.1",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "This is a portfolio template that you can use to showcase your work, especially if it's comprised of projects that should be shown in a very visual way.",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuananhnguyen2004/gamedev-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuananhnguyen2004/gamedev-portfolio/issues"
+  },
+  "homepage": "https://github.com/tuananhnguyen2004/gamedev-portfolio#readme"
 }

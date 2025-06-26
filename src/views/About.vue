@@ -4,17 +4,17 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Nguyễn Lê Tuấn Anh</strong>, a college student majoring in Information Systems at the University of Information Technology
+        and an aspiring game developer with 2 years of experience.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">Here's some <router-link to="/game-projects">games</router-link> that I've worked on in my free time (either to showcase my Unity skills or just playing around).</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as an Intern Unity Game Developer. You can reach me at <a href="mailto:nguyenletuananh456@gmail.com">nguyenletuananh456@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Tuan Anh's avatar" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -31,6 +31,10 @@
 .photo {
   margin-top: 50px;
   text-align: center;
+}
+
+.photo img {
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 620px){
