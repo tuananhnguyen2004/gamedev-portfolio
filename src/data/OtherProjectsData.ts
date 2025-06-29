@@ -52,7 +52,7 @@ export default [
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
+            </div>`, "#1ca1e2", false, true),
     new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
     <div class="paragraph">
                 <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
