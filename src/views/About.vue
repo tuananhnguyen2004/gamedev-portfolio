@@ -26,6 +26,7 @@
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .photo {

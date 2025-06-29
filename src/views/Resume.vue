@@ -6,19 +6,18 @@
       Game Developer with 2 years of hands-on experience in designing and developing games using Unity Engine. Strong
       foundation in gameplay programming, collaborative development, and problem-solving in fast-paced environments.
       Passionate about creating engaging interactive experiences and continuously learning new tools and techniques in
-      game development
+      game development.
 
       <div style="margin-top:20px; margin-bottom:10px;">
         <a class="download-link" href="d/Tuan_Anh_resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <div style="clear:both"></div>
       </div>
 
-      <h2>Work experience</h2>
+      <h2>Activities</h2>
 
-      <h3>UIT GamApp Studios</h3>
+      <h3>Lead Developer · <span class="company-name">UIT GamApp Studios</span></h3>
       <h4>Mar 2024 - Mar 2025</h4>
 
-      <strong>Lead Developer</strong>
       <ul>
         <li>Designed and implemented an efficient game development workflow using Git/GitHub, Kanban boards, and
         Scrum/Agile methodologies, significantly improving team collaboration and project management.
@@ -35,21 +34,17 @@
 
       <div class="skill-set">
         <h3>Technical Skills</h3>
-        <ul>
-          <li><SkillRate name="Unity (C#)"/></li>
-          <li><SkillRate name="Git, GitHub"/></li>
-          <li><SkillRate name="Visual Studio, Visual Studio Code"/></li>
-          <li><SkillRate name="Code review, debugging, applying design patterns"/></li>
-        </ul>
+        <SkillRate name="Unity (C#)"/>
+        <SkillRate name="Git, GitHub"/>
+        <SkillRate name="Visual Studio, Visual Studio Code"/>
+        <SkillRate name="Code review, debugging"/>
       </div>
 
       <div class="skill-set">
         <h3>Soft Skills</h3>
-        <ul>
-          <li><SkillRate name="Communication"/></li>
-          <li><SkillRate name="Project Management"/></li>
-          <li><SkillRate name="Problem Solving"/></li>
-        </ul>
+        <SkillRate name="Communication"/>
+        <SkillRate name="Project Management"/>
+        <SkillRate name="Problem Solving"/>
       </div>
       <div style="clear:both" />
 
@@ -126,8 +121,13 @@ h4 {
   font-style: italic;
 }
 
+.company-name {
+  opacity: .5;
+}
+
 .paragraph {
   max-width: 700px;
+  text-align: justify;
 }
 
 .download-link {
@@ -171,7 +171,8 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 1  0px; 
+    width: 300px;
+    padding-right: 30px; 
   }
 }
 </style>
