@@ -29,7 +29,7 @@ export default [
         <img class="phone-screenshot" src="img/projects/CatDogWar_Setup.png" alt="Game Setup" />
         <img class="phone-screenshot" src="img/projects/CatDogWar_Attack.png" alt="Dog Attack" />
     </div>
-    `, "#23bd69", true),
+    `, "#f1990e", true),
     new ProjectData("project-2", "Magnetzom", "img/projects/Magnetzom.gif", `
     <div class="paragraph">
         <strong>Magnetzom</strong> is a 2D top-down shooter where players must escape a zombie-infested lab using a unique magnet gun that pulls in nearby objects to launch them as deadly projectiles.
