@@ -13,23 +13,6 @@
         <div style="clear:both"></div>
       </div>
 
-      <h2>Activities</h2>
-
-      <h3>Lead Developer · <span class="company-name">UIT GamApp Studios</span></h3>
-      <h4>Mar 2024 - Mar 2025</h4>
-
-      <ul>
-        <li>Designed and implemented an efficient game development workflow using Git/GitHub, Kanban boards, and
-        Scrum/Agile methodologies, significantly improving team collaboration and project management.
-        </li>
-        <li>Applied the Observer design pattern in Unity projects to enhance communication between game objects, resulting
-        in cleaner, modular, and maintainable code architecture.
-        </li>
-        <li>Authored a comprehensive Unity training program documentation to onboard and mentor new students,
- accelerating their learning curve and integration into development teams.
-        </li>
-      </ul>
-
       <h2>Skills</h2>
 
       <div class="skill-set">
@@ -42,6 +25,7 @@
 
       <div class="skill-set">
         <h3>Soft Skills</h3>
+        <SkillRate name="Teamwork"/>
         <SkillRate name="Communication"/>
         <SkillRate name="Project Management"/>
         <SkillRate name="Problem Solving"/>
@@ -54,6 +38,7 @@
       <h4>Oct 2022 - Present</h4>
       <strong>Major in Information Systems</strong>
       <div>GPA: 8.01/10.00</div>
+      <div>Expected Graduation: June 2026</div>
 
       <h2>Languages</h2>
 
@@ -61,8 +46,46 @@
       <div>TOEIC (890/990)</div>
 
       <h3>Vietnamese</h3>
-      <div>This is my mother tongue..</div>
+      <div>Native speaker</div>
 
+      <h2>Activities</h2>
+
+      <h3>Lead Developer · <span class="company-name">UIT GamApp Studios</span></h3>
+      <h4>Mar 2024 - Mar 2025</h4>
+
+      <ul>
+        <li>Oversaw code quality through regular reviews, managed team members' code integration, and performed code refactoring to maintain clean, efficient, and maintainable code for the development team.
+        </li>
+        <li>Designed and implemented an efficient game development workflow using Git/GitHub, Kanban boards, and
+        Scrum/Agile methodologies, significantly improving team collaboration and project management.
+        </li>
+        <li>Authored a comprehensive Unity training program documentation to onboard and mentor new students,
+ accelerating their learning curve and integration into development teams.
+        </li>
+      </ul>
+
+      <h3>Participant · <span class="company-name">Global Game Jam Vietnam 2025</span></h3>
+      <h4>Jan 2025</h4>
+
+      <ul>
+        <li>Participated as a programmer in Global Game Jam Vietnam 2025, collaborating closely with a multidisciplinary team to
+        develop a complete game within 48 hours.
+        </li>
+        <li>Implemented movement mechanics and ball grab interaction system for the main character using Unity and C#.
+        </li>
+        <li>Contributed to debugging and playtesting throughout the jam to ensure functionality and polish.
+        </li>
+      </ul>
+
+      <h3>Participant · <span class="company-name">Gameloft x HCMUIT Game Dev Club Mentorship</span></h3>
+      <h4>July 2024 - Aug 2025</h4>
+
+      <ul>
+        <li>Collaborated with a team across two development phases, each resulting in a complete game project.
+        </li>
+        <li>Designing core game mechanics, prototyping gameplay systems, and scripting interactive elements using Unity and C#.
+        </li>
+      </ul>
 
       <h2>Besides...</h2>
       <div>

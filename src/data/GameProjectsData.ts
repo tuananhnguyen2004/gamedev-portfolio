@@ -4,23 +4,25 @@ export default [
     new ProjectData("project-1", "CatDogWar", "img/projects/CatDogWar.gif", 
     `
     <div class="paragraph">
-     <strong>CatDogWar</strong> is an adaptation of the classic Battleship game with a cat-and-dog theme
+     <strong>CatDogWar</strong> is an adaptation of the classic Battleship game with a cat-and-dog theme.
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/tWI-hsuhT40" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="notice">
-        Source code are available on <a href="https://github.com/tuananhnguyen2004/CatDogWar" target="_blank">Github</a>
+        Source code are available on <a href="https://github.com/tuananhnguyen2004/CatDogWar" target="_blank">Github</a>.
     </div>
 
     <div class="paragraph">
-        Main features :
+        Main features:
         <ul>
-        <li>Drag, drop, rotate cats/dogs on a 7x9 grid</li>
-        <li>Smooth animations using DOTween</li>
-        <li>Each player will take turn to choose a grid cell to attack without knowing the position of opponent's cats/dogs</li>
+        <li>Drag, drop, rotate cats/dogs on a 7x9 grid.</li>
+        <li>Smooth animations using DOTween.</li>
+        <li>Players take turns selecting grid tiles to attack enemy units.</li>
         </ul>
     </div>
+
+    <div>Technology: Unity C#, DOTween.</div>
 
     <div class="paragraph center">
         <img class="phone-screenshot" src="img/projects/CatDogWar_MainMenu.png" alt="Main Menu" />
@@ -37,13 +39,15 @@ export default [
     </div>
 
     <div class="paragraph">
-        Main features :
+        Main features:
         <ul>
-        <li>Players use magnetgun to attract object and shoot it as projectiles to kill zombies.</li>
+        <li>Players use magnet gun to attract object and shoot it as projectiles to kill zombies.</li>
         <li>Simple zombies AI that chase player within its detected range. Otherwise, it will patrol.</li>
-        <li>I began implementing Observer Pattern using Scriptable Objects for managing game events</li>
+        <li>Observer Pattern implementation using Scriptable Objects for managing game events.</li>
         </ul>
     </div>
+
+    <div>Technology: Unity C#.</div>
 
     <div class="paragraph">
     <div class="notice">
@@ -67,13 +71,15 @@ export default [
     </div>
 
     <div class="paragraph">
-        Main features :
+        Main features:
         <ul>
         <li>Touch left/right part of the phone screen to fly in backward/foward direction.</li>
         <li>Players must make strategic decisions, as rocket fuel is limited and misjudging a landing could result in falling from a fatal height or ending up in the wrong location.</li>
         <li>The game currently features 3 levels, each progressively more challenging than the last.</li>
         </ul>
     </div>
+
+    <div>Technology: Unity C#.</div>
 
     <div class="paragraph">
         <div class="notice">
@@ -88,34 +94,38 @@ export default [
         <img class="pc-screenshot" src="img/projects/JetGuy_2.png" alt="Gameplay 1" />
         <img class="pc-screenshot" src="img/projects/JetGuy_1.png" alt="Gameplay 2" />
     </div>
-    `, "#383838", false, true)
-    // new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    // <div class="paragraph">
-    // <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    // <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    // </div>
+    `, "#383838", false, true),
+    new ProjectData("project-4", "Bubble Delivery Service", "img/projects/BDS_Gif.gif", `
+    <div class="paragraph">
+        <strong>Bubble Delivery Service</strong> is a collaborative game developed within 48 hours during Global Game Jam 2025. 
+        In this game, players collect colorful bubbles that match the wishes of praying citizens to restore color to a once 
+        colorless city.
+    </div>
     
-    // <div class="paragraph">
-    //     Main features :
-    //     <ul>
-    //     <li>Some stuff</li>
-    //     <li>Some great stuff</li>
-    //     <li>More awesome stuff</li>
-    //     <li>And then some</li>
-    //     </ul>
-    // </div>
+    <div class="paragraph">
+        Main features:
+        <ul>
+        <li>Combine and match bubble colors to create the correct mixture.</li>
+        <li>Grab and carry bubbles to deliver them to NPCs.</li>
+        <li>Verify if the delivered bubble matches the specific wish of each prayer.</li>
+        </ul>
+    </div>
 
-    // <div class="paragraph">
-    //     <div class="notice">
-    //     Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-    //     </div>
-    // </div>
+    <div>Technology: Unity C#.</div>
 
-    // <div class="paragraph center">
-    //     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    //     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    // </div>
-    // `, "#e80fb7"),
+    <div class="paragraph">
+        <div class="notice">
+        Source code is available on <a href="https://github.com/tuananhnguyen2004/unity6-gamejam-2025" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/BDS_MainMenu.png" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/BDS_Gameplay1.png" alt="Gameplay 1" />
+        <img class="pc-screenshot" src="img/projects/BDS_Gameplay2.png" alt="Gameplay 2" />
+        <img class="pc-screenshot" src="img/projects/BDS_GameOver.png" alt="Game Over" />
+    </div>
+    `, "#e80fb7", false, true)
     // new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
     // <div class="paragraph">
     //     <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
