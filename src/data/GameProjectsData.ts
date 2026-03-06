@@ -30,38 +30,43 @@ export default [
         <img class="phone-screenshot" src="img/projects/CatDogWar_Attack.png" alt="Dog Attack" />
     </div>
     `, "#f1990e", true),
-    new ProjectData("project-2", "Magnetzom", "img/projects/Magnetzom.gif", `
+    new ProjectData("project-2", "DeMimics", "img/projects/DeMimics.gif", 
+    `
     <div class="paragraph">
-        <strong>Magnetzom</strong> is a 2D top-down shooter where players must escape a zombie-infested lab using a unique magnet gun that pulls in nearby objects to launch them as deadly projectiles.
+     Developed in one week for <strong><a href="https://itch.io/jam/theham-jam-1">Ham Jam #1</a></strong>. 
+     DeMimics is a tactical puzzle game that won <strong>1st place</strong> under the theme “You Are The Enemy”. 
+     In DeMimics, player takes control of mischievous creatures inhabiting ancient ruins called DeMimics 
+     and must strategically coordinate their movements to block and intercept the Explorer before he reaches the ruined pit.
     </div>
+
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/rnYumE-AjnY" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/GlLQEWGQ5rI" frameborder="0" allowfullscreen></iframe>
     </div>
+    <div class="notice">
+        Source code are available on <a href="https://github.com/tuananhnguyen2004/ham-jam-1" target="_blank">Github</a>.<br>
+        Play the game on <a href="https://ntmynhu.itch.io/demimics" target="_blank">itch.io</a>.
+    </div>
+
 
     <div class="paragraph">
         Main features:
         <ul>
-        <li>Players use magnet gun to attract object and shoot it as projectiles to kill zombies.</li>
-        <li>Simple zombies AI that chase player within its detected range. Otherwise, it will patrol.</li>
-        <li>Observer Pattern implementation using Scriptable Objects for managing game events.</li>
+        <li>Implemented a grid-based, turn-based movement system for DeMimics and the Explorer.</li>
+        <li>A* pathfinding system was implemented for the Explorer’s navigation.</li>
+        <li>Smooth animations using DOTween.</li>
         </ul>
     </div>
 
-    <div>Technology: Unity C#.</div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Source code is available on <a href="https://github.com/tuananhnguyen2004/Magnetzom" target="_blank">GitHub</a>.
-    </div>
-    </div>
+    <div>Technology: Unity C#, DOTween.</div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/Magnetzom_Begin.png" alt="Game Begin" />
-    <img class="pc-screenshot" src="img/projects/Magnetzom_Attack.png" alt="Player Attack" />
-    <img class="pc-screenshot" src="img/projects/Magnetzom_Attack1.png" alt="Player Attack" />
-    <img class="pc-screenshot" src="img/projects/Magnetzom_TurnOn.png" alt="Player Turn On machine" />
+        <img class="pc-screenshot" src="img/projects/DeMimics_MainMenu.png" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/DeMimics_LevelSelection.png" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/DeMimics_Gameplay.png" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/DeMimics_Gameplay2.png" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/DeMimics_Win.png" alt="Main Menu" />
     </div>
-    `, "#5a78af", false, true),
+    `, "#e13030ff", false, true),
     new ProjectData("project-3", "JetGuy", "img/projects/JetGuy.gif", `
     <div class="paragraph">
         <strong>JetGuy</strong> is a clone version of Mars:Mars. This game is the first game I developed using Unity as the final project of a Unity course organized at my university's game development club.
@@ -125,7 +130,39 @@ export default [
         <img class="pc-screenshot" src="img/projects/BDS_Gameplay2.png" alt="Gameplay 2" />
         <img class="pc-screenshot" src="img/projects/BDS_GameOver.png" alt="Game Over" />
     </div>
-    `, "#e80fb7", false, true)
+    `, "#e80fb7"),
+    new ProjectData("project-5", "Magnetzom", "img/projects/Magnetzom.gif", `
+    <div class="paragraph">
+        <strong>Magnetzom</strong> is a 2D top-down shooter where players must escape a zombie-infested lab using a unique magnet gun that pulls in nearby objects to launch them as deadly projectiles.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/rnYumE-AjnY" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features:
+        <ul>
+        <li>Players use magnet gun to attract object and shoot it as projectiles to kill zombies.</li>
+        <li>Simple zombies AI that chase player within its detected range. Otherwise, it will patrol.</li>
+        <li>Observer Pattern implementation using Scriptable Objects for managing game events.</li>
+        </ul>
+    </div>
+
+    <div>Technology: Unity C#.</div>
+
+    <div class="paragraph">
+    <div class="notice">
+        Source code is available on <a href="https://github.com/tuananhnguyen2004/Magnetzom" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/Magnetzom_Begin.png" alt="Game Begin" />
+    <img class="pc-screenshot" src="img/projects/Magnetzom_Attack.png" alt="Player Attack" />
+    <img class="pc-screenshot" src="img/projects/Magnetzom_Attack1.png" alt="Player Attack" />
+    <img class="pc-screenshot" src="img/projects/Magnetzom_TurnOn.png" alt="Player Turn On machine" />
+    </div>
+    `, "#5a78af", false, true)
     // new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
     // <div class="paragraph">
     //     <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.

@@ -10,7 +10,7 @@
 
       <div style="margin-top: 20px;">Here's some <router-link to="/game-projects">games</router-link> that I've worked on in my free time (either to showcase my Unity skills or just playing around).</div>
 
-      <div style="margin-top: 40px;">You can reach me at <a href="mailto:nguyenletuananh456@gmail.com">nguyenletuananh456@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px; text-align: left;">You can reach me at <a href="mailto:nguyenletuananh456@gmail.com">nguyenletuananh456@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">

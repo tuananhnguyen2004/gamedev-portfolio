@@ -9,7 +9,7 @@
       game development.
 
       <div style="margin-top:20px; margin-bottom:10px;">
-        <a class="download-link" href="d/Tuan_Anh_resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <a class="download-link" href="d/TuanAnh_resume_final.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <div style="clear:both"></div>
       </div>
 
@@ -22,6 +22,8 @@
         <SkillRate name="Visual Studio, Visual Studio Code"/>
         <SkillRate name="Code review, debugging"/>
       </div>
+
+      <div style="clear:both" />
 
       <div class="skill-set">
         <h3>Soft Skills</h3>
@@ -37,13 +39,13 @@
       <h3>University of Information Technology - VNUHCM</h3>
       <h4>Oct 2022 - Present</h4>
       <strong>Major in Information Systems</strong>
-      <div>GPA: 8.01/10.00</div>
+      <div>GPA: 8.14/10.00</div>
       <div>Expected Graduation: June 2026</div>
 
       <h2>Languages</h2>
 
       <h3>English</h3>
-      <div>TOEIC (890/990)</div>
+      <div>TOEIC (880/990)</div>
 
       <h3>Vietnamese</h3>
       <div>Native speaker</div>
@@ -78,7 +80,7 @@
       </ul>
 
       <h3>Participant · <span class="company-name">Gameloft x HCMUIT Game Dev Club Mentorship</span></h3>
-      <h4>July 2024 - Aug 2025</h4>
+      <h4>July 2024 - Aug 2024</h4>
 
       <ul>
         <li>Collaborated with a team across two development phases, each resulting in a complete game project.
